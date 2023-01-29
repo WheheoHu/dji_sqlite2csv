@@ -2,3 +2,4 @@ DB_file
 .venv310
 .venv311
 __pycache__
+.DS_Store
