@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "name": "Debug_4D",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-f",
+                "/Users/wheheohu/Code/sqlite2csv/DB_file/default_sensor_name_1110.db",
+                "-oc"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug_Inspire",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-f",
+                "/Users/wheheohu/Code/sqlite2csv/DB_file/dji_finfo_test.db",
+                "-oc"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug_Mavic",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-f",
+                "/Users/wheheohu/Code/sqlite2csv/DB_file/L2D-20c.db",
+                "-oc",
+                "-mavic"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
