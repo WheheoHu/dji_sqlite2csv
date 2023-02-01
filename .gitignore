@@ -3,3 +3,4 @@ DB_file
 .venv311
 __pycache__
 .DS_Store
+Test.app
